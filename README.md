@@ -46,6 +46,7 @@ Character | Description
 `*` | Any letter
 `U` | Any letter (All lower case character will be mapped to uppercase)
 `L` | Any letter (All upper case character will be mapped to lowercase)
+`?` |  Make any part of the mask optional
 `\\` | Escape character, used to escape any of the special formatting characters.
 
 
