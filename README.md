@@ -92,13 +92,13 @@ Character | Description
 ```js
 phoneMask = mask.curry({mask: '+7 (999) 999-99-99', filler: '_'})
 
-phoneMask(+792112)
+phoneMask('+792112')
 // { model: '92112',
 //   viewValue: '+7 (921) 12_-__-__',
 //   isValid: false,
 //   cursor: 11 }
 
-phoneMask(92112345)
+phoneMask('92112345')
 // { model: '92112',
 //   viewValue: '+7 (921) 123-45-__',
 //   isValid: false,
