@@ -40,13 +40,13 @@ mask('92112', {mask: '+7 (999) 999-99-99', filler: '_'})
 ## Special mask characters
 
 Character | Description
---- | ---
+--- |:---
 `9` | Any numbers
 `A` | Any alphanumeric character
 `*` | Any letter
 `U` | Any letter (All lower case character will be mapped to uppercase)
 `L` | Any letter (All upper case character will be mapped to lowercase)
-`?` |  Make any part of the mask optional
+`?` | Make any part of the mask optional
 `\\` | Escape character, used to escape any of the special formatting characters.
 
 
